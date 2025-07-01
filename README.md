@@ -4,35 +4,44 @@ Analyzing the global energy impact of artificial intelligence using LLMs — ins
 # ⚡ AI & Energy: Global Impact Analysis with LLMs
 
 ## 📌 Project Overview
-As artificial intelligence (AI) adoption accelerates worldwide, its energy demand — especially electricity for data centers — is becoming a major concern. This project uses data and insights from the **International Energy Agency (IEA)** to explore how AI could reshape the global energy landscape.
+The exponential growth of artificial intelligence (AI) comes with a rising cost — energy. This project analyzes new projections from the International Energy Agency (IEA) on AI’s global electricity consumption and installed computing capacity from 2020 through 2035.
 
-Leveraging IBM’s Large Language Model (LLM), we extract key insights, classify energy vulnerabilities, and generate policy-level recommendations based on AI electricity consumption projections, energy source shifts, and emissions impact.
+By leveraging IBM’s Large Language Model (LLM), we extract insights, summarize trends, and generate policy recommendations based on structured projections and scenario modeling.
 
 ---
 
-## 📂 Dataset & Report Source
+## 📂 Dataset & Sourc
 
 - **Primary Source**: IEA – *Energy and AI* (2024)  
 - **Report**: [https://www.iea.org/data-and-statistics/data-product/energy-and-ai](https://www.iea.org/data-and-statistics/data-product/energy-and-ai)
-- **Data**: Interactive charts & xlsx downloads available via IEA’s portal (includes projections 2023–2030)
+- **Raw Data File**: `Data_annex_Energy_and_AI.xlsx`  
+- **Sheets Used**:
+  - **World Data**: Installed capacity in GW under multiple scenarios
+  - **Regional Data**: Base-case growth forecast by global regions
 
 ---
 
 ## 🔍 Insight & Findings
 
-- ⚡ **Global electricity consumption from AI could reach 10x growth by 2030**, led by data centers and GPUs.
-- 🌍 **China, US, and Europe** will carry the bulk of future AI energy demand.
-- 🔄 **Power mix will shift** to renewables in some regions, but fossil dependency remains in others.
-- 🧠 LLMs can help track energy intensity per AI application, from training to deployment.
+- 🌐 **Global AI compute capacity is projected to grow from 83 GW (2023) to:**
+  - **226 GW by 2030** (Base Case)
+  - **305 GW by 2030** (Lift-Off)
+  - **185 GW by 2030** (High Efficiency)
+  - **158 GW by 2030** (Headwinds)
+
+- 🧠 Hyperscale systems contribute a growing share of installed capacity, rising from 31 GW (2023) to:
+  - **85 GW** (Base), **108 GW** (Lift-Off), or **62 GW** (Headwinds) by 2030
+
+- 🌍 The **World**, **China**, **United States**, and **Europe** dominate AI-related electricity demand growth.
 
 ---
 
 ## ✅ Recommendations
 
-- 🎯 Prioritize **low-emission AI infrastructure** investment in emerging markets.
-- 🔌 Encourage **regulation of hyperscale data center energy use**.
-- 🌐 Support global standards for **AI energy efficiency transparency**.
-- 📉 Monitor AI compute growth vs clean energy availability to avoid grid instability.
+- 🏗️ Prioritize investment in **high-efficiency AI hardware** and **green hyperscale infrastructure**
+- 🔍 Track AI electricity demand in **emerging regions** to avoid grid stress
+- 🔌 Establish **data center energy standards** to align with emissions goals
+- 🌐 Coordinate globally to manage AI infrastructure impact under aggressive growth scenarios
 
 ---
 
@@ -40,18 +49,18 @@ Leveraging IBM’s Large Language Model (LLM), we extract key insights, classify
 
 | Task | Input | Output |
 |------|-------|--------|
-| **Summarization** | IEA report paragraphs | Key insight bullets by section/region |
-| **Classification** | Country energy profile + AI projections | Labels: high-risk, balanced, renewable-prepared |
-| **Policy Recommendation** | Emissions + AI growth data | Actionable national energy policy suggestions |
+| **Summarization** | World/Regional IEA projections | Scenario-wise trend summaries |
+| **Classification** | Country/region growth rates | Risk category (aggressive, moderate, efficient) |
+| **Policy Generation** | Scenario data + regional capacity | Actionable energy strategies by scenario |
 
 ---
 
-## 📈 Visualizations (see `/visualizations`)
-- Regional AI electricity consumption forecasts (2023–2030)
-- Comparison: AI vs other tech electricity demands
-- Emission projection by energy source under AI load
-- AI-generated policy recommendation heatmaps
+## 📈 Visualizations (in `/notebooks`)
+- Installed capacity growth under 4 scenarios (Base, Lift-Off, High Efficiency, Headwinds)
+- Hyperscale vs total compute capacity
+- Regional installed capacity projections
+- AI-generated policy recommendation map
 
 ---
 
-> 🧠 This project highlights the real-world cost of AI — using AI — to ensure smarter, more sustainable technological progress.
+> 🧠 This project uses AI to assess the energy footprint of AI itself — offering guidance for sustainable compute growth and energy planning.
