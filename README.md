@@ -12,9 +12,9 @@ Leveraging IBM’s Large Language Model (LLM), we extract key insights, classify
 
 ## 📂 Dataset & Report Source
 
-- **Primary Source**: IEA – *Electricity Consumption of Artificial Intelligence* (2024)  
-- **Report**: [https://www.iea.org/reports/electricity-consumption-of-artificial-intelligence](https://www.iea.org/reports/electricity-consumption-of-artificial-intelligence)  
-- **Data**: Interactive charts & CSV downloads available via IEA’s portal (includes projections 2023–2030)
+- **Primary Source**: IEA – *Energy and AI* (2024)  
+- **Report**: [https://www.iea.org/data-and-statistics/data-product/energy-and-ai](https://www.iea.org/data-and-statistics/data-product/energy-and-ai)
+- **Data**: Interactive charts & xlsx downloads available via IEA’s portal (includes projections 2023–2030)
 
 ---
 
