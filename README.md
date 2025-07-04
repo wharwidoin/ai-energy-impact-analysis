@@ -55,7 +55,7 @@ By leveraging IBM’s Large Language Model (LLM), we extract insights, summarize
 
 ---
 
-## 📈 Visualizations (in `/visualizations`)
+## 📈 Visualizations (in `/Visualizations`)
 - Installed capacity growth under 4 scenarios (Base, Lift-Off, High Efficiency, Headwinds)
 - Hyperscale vs total compute capacity
 - Regional installed capacity projections
