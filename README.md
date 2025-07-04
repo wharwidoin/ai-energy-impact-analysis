@@ -1,10 +1,10 @@
 # ai-energy-impact-analysis
-Analyzing the global energy impact of artificial intelligence using LLMs — insights from IEA projections, trends, and policy scenarios.
+Analyzing the global energy impact of artificial intelligence using LLMs insights from IEA projections, trends, and policy scenarios.
 
 # ⚡ AI & Energy: Global Impact Analysis with LLMs
 
 ## 📌 Project Overview
-The exponential growth of artificial intelligence (AI) comes with a rising cost — energy. This project analyzes new projections from the International Energy Agency (IEA) on AI’s global electricity consumption and installed computing capacity from 2020 through 2035.
+The exponential growth of artificial intelligence (AI) comes with a rising cost energy. This project analyzes new projections from the International Energy Agency (IEA) on AI’s global electricity consumption and installed computing capacity from 2020 through 2035.
 
 By leveraging IBM’s Large Language Model (LLM), we extract insights, summarize trends, and generate policy recommendations based on structured projections and scenario modeling.
 
