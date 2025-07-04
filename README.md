@@ -10,7 +10,7 @@ By leveraging IBM’s Large Language Model (LLM), we extract insights, summarize
 
 ---
 
-## 📂 Dataset & Sourc
+## 📂 Dataset & Source
 
 - **Primary Source**: IEA – *Energy and AI* (2024)  
 - **Report**: [https://www.iea.org/data-and-statistics/data-product/energy-and-ai](https://www.iea.org/data-and-statistics/data-product/energy-and-ai)
